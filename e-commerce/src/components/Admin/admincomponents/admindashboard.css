@@ -1,0 +1,197 @@
+.dashfull{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.adminnavfixed{
+    width: 20%;
+}
+.admindiv{
+    
+    width: 20%;
+    display: flex;
+    justify-content:center;
+    border-right: 3px solid #ff4141;
+
+    min-height: 100%;
+    position: fixed;
+}
+.dashcontent{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.dashinput-button{
+    width: 100%;
+    height: 20vh;
+    background:linear-gradient(180deg, #fde1ff,#bbd7d7 200%);
+    top: 0%;
+    position: sticky;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #ff4141;
+    
+}
+
+.dashcontent .serverinputs{
+    margin-top: 2%;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    width: 90%; 
+
+    
+    
+}
+.serverinputs input{
+    border-radius: 5px;
+    padding-block: 2px;
+    width: 50%;
+    height:32px;
+    padding-left: 10px;
+border: none;
+background-color: white;
+border: 1px solid #7a7a7a;
+color: #515151;
+border-radius: 0px;
+outline: none;
+}
+.dashcontent .createbuttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    padding-block: 10px;
+
+}
+.createbuttons button{
+    /* background-color: navy;
+    color: aliceblue;
+    border: none;
+    padding-inline: 20px;
+    padding-block: 5px;
+    border-radius: 10px; */
+
+    width: 15%;
+    height: 6vh;
+
+    background-color: #ff4141;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.Tablecontainer{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+.table{
+    background:linear-gradient(180deg, #fde1ff,#e1ffea22 200%);
+
+    width: 95%;
+    min-height: 100vh;
+    margin-top: 2% ;
+    border-collapse: collapse;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #888888, -5px -5px 10px #888888;
+
+
+
+    
+    
+}
+.table thead th{
+    background-color: rgb(51, 37, 37);
+    padding-inline: 35px;
+    padding-block: 5px;
+    color: white;
+  }
+  #tableheadradios2{
+    border-top-right-radius: 15px;
+  }
+  #tableheadradios{
+    border-top-left-radius: 15px;
+  }
+  thead tr{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+.table tbody{
+    color: #000000;
+
+}
+
+.table tbody td{
+    justify-content: center;
+    
+
+
+    
+
+}
+
+.table tbody td img{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+
+   
+
+}
+.table tr:nth-child(even) {
+    background-color: #bbd7d7;
+  }
+
+.table #tableimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.table .tableheadimage{
+    width: 10px;
+}
+.table #tablebutton{
+
+margin-top: 4%;
+margin-left: 12%;
+
+
+    width: 100px;
+    height:32px;
+border: none;
+background-color: white;
+color: #515151;
+border-radius: 50px;
+cursor: pointer;
+
+}
+.table #tablebutton:hover{
+    background-color: #ff4141;
+    color: #ffffff;
+    border: none;
+
+}
+
+.table td h4,del,td p{
+    display: flex;
+    justify-content: center;
+}
+.table td h4{
+    font-weight: 550;
+}

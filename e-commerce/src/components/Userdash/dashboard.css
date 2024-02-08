@@ -1,0 +1,621 @@
+.dashboardfull {
+    width: 100%;
+    min-height: 100vh;
+    border-radius: 1px;
+    overflow-x: hidden;
+    /* Standard property */
+
+}
+
+.dashnav {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 70%);
+
+    border-bottom: 1px solid #706e6e;
+
+}
+
+.navlogo {
+    width: 25%;
+    height: 13vh;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.navlogo h3 {
+    width: 73%;
+    margin-right: 30px;
+    color: black;
+    justify-content: left;
+}
+
+.navlogo img {
+    width: 27%;
+    height: 7vh;
+}
+
+.filtercontent {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
+.filtercontent hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #ff4141;
+}
+
+.navcart {
+    width: 18%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navcart button {
+    width: 110px;
+    height: 37px;
+    border: none;
+    background-color: white;
+    border: 1px solid #7a7a7a;
+    color: #515151;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.navcart i {
+    font-size: 21px;
+}
+
+.navcart button:hover {
+    background-color: #f3f3f3;
+}
+
+.cart-count {
+    width: 18px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -55px;
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+
+
+}
+
+
+
+
+
+
+
+
+.searchbox {
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+}
+
+.slidershow {
+    margin-top: 1%;
+    width: 100%;
+    height: 65vh;
+}
+
+.slidershow img {
+    width: 100%;
+    height: 65vh;
+}
+
+center p {
+    width: 40%;
+    /* background-color: cornflowerblue; */
+    margin-top: 0%;
+    padding-block: 5px;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+center p hr {
+    border: none;
+    width: 20%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #ff4141;
+}
+
+.product {
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -25px;
+    padding: 0%;
+}
+
+.product1 {
+    /*     width: 25%;
+    height: 25vh;
+    display: flex;
+    gap: 10px;
+    background-color: #ffffff;
+    justify-content: center;
+    border: 1px solid gray;
+    margin-top: 3%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    box-shadow: 5px 5px 10px #888888; */
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product1 .productimg {
+
+    width: 85%;
+    height: 65%;
+}
+
+.product1 .productimg img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.productprice {
+    display: flex;
+    align-items: center;
+}
+
+.productcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    height: 15vh;
+    gap: 5px;
+    width: 100%;
+
+
+}
+
+
+.productcontent h3,
+.productcontent p {
+    padding: 0%;
+    margin: 0%;
+    font-size: 13px;
+}
+
+.productcontent p {
+    color: green;
+}
+
+.productprice del {
+    color: red;
+}
+
+.productcontent .buybutton button {
+    width: 90px;
+    height: 32px;
+    border: none;
+    background-color: white;
+    border: 1px solid #7a7a7a;
+    color: #515151;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.productcontent .buybutton button:hover {
+    background-color: #ff4141;
+    color: #ffffff;
+}
+
+.hidecontainer {
+    /* background-color: #aecdfc;
+    display: flex;
+    justify-content: center; */
+    width: 55%;
+    height: 70vh;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* border: 2px solid rgb(0, 0, 0); */
+
+}
+
+.hideheading {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.hideheading h2 {
+    color: #0d6efd;
+}
+
+.hidecontent {
+    display: flex;
+}
+
+.hideinputcontent {
+    width: 50%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+
+.hideinputcontent input {
+    width: 75%;
+    border-color: black;
+    padding-block: 7px;
+    border-radius: 10px;
+    
+
+}
+
+.hideproductcontent {
+    width: 50%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hideimageshow {
+    width: 30%;
+    height: 23vh;
+}
+
+.hideimageshow img {
+    width: 100%;
+    height: 100%;
+
+}
+.hideproductcontent .hidemulti{
+    width: 100%;
+    height: 14vh;
+    background-color: #515151;
+    
+}
+
+.paymentsbuttons {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff4141;
+
+}
+
+#paycancelbutton {
+    border: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding-inline: 25px;
+    padding-block: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#paybuybutton {
+    border: none;
+
+    background-color: #23A455;
+    color: #ffffff;
+    padding-inline: 25px;
+    padding-block: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* phone media quary */
+@media screen and (max-width: 767px) {
+    .dashboardfull {
+        width: 100%;
+        min-height: 100vh;
+        -webkit-border-radius: 1px;
+        border-radius: 1px;
+        overflow-x: hidden;
+        /* Standard property */
+
+    }
+
+    .dashnav {
+
+        width: 100%;
+        height: 9vh;
+        display: flex;
+
+        justify-content: space-around;
+        background-color: #ffffff;
+
+    }
+
+    .dashnav h1,
+    .navsupport h3,
+    .navsupport p {
+        margin: 0%;
+        padding: 0%;
+        cursor: pointer;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #support p {
+        font-size: 7px;
+    }
+
+    #support2 h3,
+    #support2 p {
+        font-size: 14px;
+    }
+
+    .navsupport {
+        margin: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 15%;
+        height: 100%;
+        cursor: pointer;
+
+
+    }
+
+    .navsupport:hover {
+        background-color: burlywood;
+    }
+
+    .navsupport .navlogo {
+        background-color: aliceblue;
+        padding: 4%;
+        border-radius: 100px;
+    }
+
+    .searchbox {
+        width: 100%;
+        height: 7vh;
+        background-color: brown;
+    }
+
+    .slidershow {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .slidershow img {
+        width: 100%;
+        height: 35vh;
+    }
+
+    center h2 {
+        /* background-color: cornflowerblue; */
+        margin-top: 0%;
+        padding-block: 5px;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .product {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .product1 {
+        width: 90%;
+        height: 25vh;
+        display: flex;
+        gap: 10px;
+        background-color: #ffffff;
+        justify-content: center;
+        border: 1px solid gray;
+        margin-top: 3%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 12px;
+
+        box-shadow: 5px 5px 10px #888888;
+
+    }
+
+    .product1 img {
+        width: 100%;
+        height: 25vh;
+        background-color: #0d6efd;
+    }
+
+
+    .productprice {
+        display: flex;
+        align-items: center;
+    }
+
+    .productcontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0%;
+        height: 25vh;
+        gap: 5px;
+        padding-right: 5px;
+    }
+
+    .productcontent h3,
+    .productcontent p {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .productcontent p {
+        color: green;
+    }
+
+    .productprice del {
+        color: red;
+    }
+
+    .productcontent .buybutton button {
+        margin-top: 20px;
+        border: none;
+        background-color: #0d6efd;
+        color: #ffffff;
+        padding-inline: 25px;
+        padding-block: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .hidecontainer {
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+    .hideheading {
+        width: 100%;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid gray;
+        margin-top: 0%;
+    }
+
+    .hideheading h2 {
+        color: #0d6efd;
+    }
+
+    .hidecontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hideinputcontent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+
+    }
+
+    .hideinputcontent input {
+        width: 80%;
+        border-color: black;
+        padding-block: 7px;
+        border-radius: 5px;
+
+    }
+
+    .hideproductcontent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hideimageshow {
+        width: 25%;
+        height: 30%;
+    }
+
+    .hideimageshow img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .paymentsbuttons {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #paycancelbutton {
+        border: none;
+        background-color: #ff0000;
+        color: #ffffff;
+        padding-inline: 25px;
+        padding-block: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #paybuybutton {
+        border: none;
+
+        background-color: #23A455;
+        color: #ffffff;
+        padding-inline: 25px;
+        padding-block: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+}

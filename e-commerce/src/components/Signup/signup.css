@@ -1,0 +1,220 @@
+.signupfull{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(180deg, #fde1ff,#e1ffea22 200%);
+}
+
+.signupcontent h1{
+   font-size: 20px;
+}
+#error{
+    color: rgb(166, 1, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#error p{
+    margin: 0%;
+    padding: 0%;
+
+}
+.signupfull .signupcontent{
+    width: 450px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:white;
+
+}
+.signupcontent #signupbox{
+    border: none;
+    width: 270px;
+    height: 7vh;
+    border: 1px solid #c9c9c9;
+    padding: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.loginOption{
+    width: 58%;
+    height: 8vh;
+    display: flex;    
+    justify-content: space-around;
+}
+.loginOption label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginOption b{
+    color: #ff4141;
+}
+.signupcontent button{
+    width: 60%;
+    height: 8vh;
+    background-color: #ff4141;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+.signupcontent button:hover{
+    background-color: #f86262;
+}
+ @media screen and (max-width: 600px) {
+    .signupfull{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(180deg, #fde1ff,#e1ffea22 200%);
+    }
+    
+    .signupcontent h1{
+       font-size: 20px;
+    }
+    #error{
+        color: rgb(166, 1, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    #error p{
+        margin: 0%;
+        padding: 0%;
+    
+    }
+    .signupfull .signupcontent{
+        width: 350px;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color:white;
+    
+    }
+    .signupcontent #signupbox{
+        border: none;
+        width: 270px;
+        height: 7vh;
+        border: 1px solid #c9c9c9;
+        padding: 3px;
+        padding-left: 10px;
+        outline: none;
+    }
+    
+    .loginOption{
+        margin: 0%;
+        width: 75%;
+        height: 8vh;
+        display: flex;    
+        justify-content: space-around;
+        align-items: center;
+    }
+    .loginOption label{
+        
+        display: flex;
+    
+    
+    }
+    .loginOption b{
+        color: #ff4141;
+    }
+    .signupcontent button{
+        width: 70%;
+        height: 6vh;
+        background-color: #ff4141;
+        border: none;
+        color: white;
+        cursor: pointer;
+    
+    
+    }
+    .signupcontent button:hover{
+        background-color: #f86262;
+    }
+}
+/*
+@media screen and (min-width: 768px)and (max-width: 1024px) {
+    .signupfull{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    .signupcontent h1{
+        color: #0d6efd;
+        font-size: 60px;
+     }
+    .signupimage{
+        display: none;
+    }
+    .signupfull .signupcontent{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: aqua;
+        border-radius: 20px;
+  }
+  .signupcontent #signupbox{
+    border: none;
+    background-color: #bddaf8;
+    width: 500px;
+    height: 5vh;
+    border-left: 5px solid #0d6efd;
+    padding: 3px;
+    outline: none;
+    font-size: 25px;
+}
+  .loginOption{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.loginOption label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signupcontent button{
+    width: 60%;
+    height: 6vh;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+
+
+}
+#checkbox{
+    
+color: aqua;
+width: 30px;
+height: 30vh;
+}
+
+} */

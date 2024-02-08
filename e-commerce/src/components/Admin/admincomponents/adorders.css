@@ -1,0 +1,132 @@
+.adorders{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.Adminnavbar{
+    width:20%;
+    
+}
+.ordercontainer{
+width: 80%;
+min-height: 100vh;
+
+background-color: white;
+
+}
+ .ordertable{
+    width: 100%;
+    min-height: 100vh;
+    top: 0%;
+    background:linear-gradient(180deg, #fde1ff,#e1ffea22 200%);
+
+}
+
+ .table2{
+    width: 100%;
+    min-height: 100%;
+    border-collapse: collapse;
+
+
+    
+    
+}
+.table2 thead th{
+    background-color: rgb(51, 37, 37);
+    padding-block: 10px;
+    color: white;
+    padding-inline: 11px;
+
+
+
+    
+
+  }
+ tr th{
+    background-color: rgb(51, 37, 37);
+    color: white;
+
+
+}
+.table2 #table2img{
+    width: 90px;
+  
+}
+
+.table2 tbody td img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.table2 td h4,td p{
+    display: flex;
+    justify-content: center;
+} 
+.table2 td h4{
+    font-weight:500;
+}
+.table2 tbody tr td{
+    margin: 0%;
+    padding: 0%;
+
+
+
+}
+.table2 tr:nth-child(even) {
+    background-color: #bbd7d7;
+  }
+  #address{
+    height: 10%;
+  } 
+/*
+.table2, th{
+    border: 1px solid;
+  }
+.table2 tbody{
+    color: #000000;
+
+}
+
+ .table2 tbody tr td{
+    border: 1px solid black;
+    background-color: aqua;
+    height: 10%;
+    padding: 0%;
+    
+
+
+    
+
+}
+
+.table2 tbody td img{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+.table2 tr:nth-child(even) {
+    background-color: #bbd7d7;
+  }
+
+.table2 #tableimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+}
+.table2 .tableheadimage{
+    width: 10px;
+}
+
+.table2 td h4,td p{
+    display: flex;
+    justify-content: center;
+}  */
